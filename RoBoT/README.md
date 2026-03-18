@@ -1,6 +1,5 @@
-# RoBoT: Parameter-based Gradient Flow (PGF) Optimization Suite
 
-RoBoT (Robust Behavior Optimization Toolkit) 是一个面向机器人超长轨迹控制的高级强化学习优化库。其核心基于 **PGF (Parameter-based Gradient Flow)** 理论，旨在解决传统二阶优化方法（如 TRPO）在长序列下的显存爆炸问题，实现 $O(1)$ 显存开销下的精确 Hessian-Vector Product (HVP)。
+RoBoT是一个面向机器人超长轨迹控制的强化学习优化库。其核心基于 **PGF (Phase Gradient Flow)** 理论，旨在解决传统二阶优化方法（如 TRPO）在长序列下的显存爆炸问题，实现 $O(1)$ 显存开销下的精确 Hessian-Vector Product (HVP)。
 
 ---
 
